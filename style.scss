@@ -1,0 +1,44 @@
+// definindo variaveis
+
+$alert-color: blue;
+$info-color:pink;
+
+// incluindo
+@import "reset";
+
+// mixin
+@mixin position($value) {
+    display: block;
+    margin-left: $value;
+    margin-right: $value;
+}
+
+section{
+    // para adicionar o mixin
+    @include position(10px);
+    background-color: rgb(255, 181, 181);
+    width: 100px;
+    height: 100px;
+}
+
+#sp{
+    color: aqua;
+}
+
+p{
+    font-size: 30px;
+    // color: blue;
+}
+
+header{
+    background-color: $alert-color;
+    font-size: 50px;
+    color: red;
+
+    p {
+        font-size: 30px;
+      &:hover{
+          color: $info-color;
+      }
+}
+}

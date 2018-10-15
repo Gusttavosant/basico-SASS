@@ -1,0 +1,36 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+section {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ffb5b5;
+  width: 100px;
+  height: 100px;
+}
+
+#sp {
+  color: aqua;
+}
+
+p {
+  font-size: 30px;
+}
+
+header {
+  background-color: blue;
+  font-size: 50px;
+  color: red;
+}
+header p {
+  font-size: 30px;
+}
+header p:hover {
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
